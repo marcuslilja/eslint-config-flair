@@ -1,0 +1,11 @@
+{
+  "name": "@ardentic/eslint-config-flair",
+  "version": "1.0.0",
+  "description": "Ardentic ESLint configuration settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ardentic",
+  "license": "MIT"
+}
