@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "./rules/possible-errors.json",
+    "./rules/best-practices.json",
+    "./rules/strict-mode.json",
+    "./rules/variables.json",
+    "./rules/nodejs-and-commonjs.json",
+    "./rules/stylistic-issues.json"
+  ],
+
+  "parserOptions": {
+    "sourceType": "module"
+  },
+
+  "env": {
+    "node": true
+  }
+}
