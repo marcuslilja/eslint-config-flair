@@ -1,6 +1,4 @@
 
-'use strict';
-
 var rules = [
   './rules/possible-errors',
   './rules/best-practices',

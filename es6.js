@@ -1,6 +1,4 @@
 
-'use strict';
-
 var rules = [
   './rules/ecmascript-6'
 ];
