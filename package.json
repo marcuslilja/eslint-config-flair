@@ -4,8 +4,19 @@
   "description": "Ardentic ESLint configuration settings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint **/*.js"
   },
   "author": "Ardentic",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardentic/eslint-config-flair.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ardentic/eslint-config-flair/issues"
+  },
+  "homepage": "https://github.com/ardentic/eslint-config-flair#readme"
 }
