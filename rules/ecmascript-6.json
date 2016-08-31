@@ -17,7 +17,7 @@
     "no-useless-constructor": "error",
     "no-useless-rename": ["error", { "ignoreDestructuring": false, "ignoreImport": false, "ignoreExport": false }],
     "no-var": "error",
-    "object-shorthand": ["error", "consistent-as-needed"],
+    "object-shorthand": ["error", "never"],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "prefer-reflect": "error",
