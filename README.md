@@ -35,7 +35,7 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair"
+    "@ardentic/flair",
     "@ardentic/flair/node"
   ]
 }
@@ -46,8 +46,8 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair"
-    "@ardentic/flair/es6"
+    "@ardentic/flair",
+    "@ardentic/flair/es6",
     "@ardentic/flair/node"
   ]
 }
@@ -58,8 +58,8 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair"
-    "@ardentic/flair/es6"
+    "@ardentic/flair",
+    "@ardentic/flair/es6",
     "@ardentic/flair/browser"
   ]
 }
