@@ -1,6 +1,6 @@
 {
   "name": "@ardentic/eslint-config-flair",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ardentic ESLint configuration settings",
   "main": "index.js",
   "scripts": {
