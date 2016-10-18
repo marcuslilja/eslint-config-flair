@@ -26,6 +26,7 @@ Available extensions to use:
 * `@ardentic/flair` - basic linting rules
 * `@ardentic/flair/es6` - es6 linting rules
 * `@ardentic/flair/node` - node linting rules
+* `@ardentic/flair/react` - react linting rules
 * `@ardentic/flair/browser` - browser linting rules
 
 The rules can be mixed and matched depending on what kind of environment you are about to lint.
@@ -61,6 +62,18 @@ The rules can be mixed and matched depending on what kind of environment you are
     "@ardentic/flair",
     "@ardentic/flair/es6",
     "@ardentic/flair/browser"
+  ]
+}
+```
+
+**React ES6 linting rules**
+
+```json
+{
+  "extends": [
+    "@ardentic/flair",
+    "@ardentic/flair/es6",
+    "@ardentic/flair/react"
   ]
 }
 ```
