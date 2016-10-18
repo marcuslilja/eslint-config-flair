@@ -42,7 +42,7 @@
     "no-lonely-if": "error",
     "no-mixed-operators": "off",
     "no-mixed-spaces-and-tabs": "error",
-    "no-multiple-empty-lines": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
     "no-negated-condition": "off",
     "no-nested-ternary": "error",
     "no-new-object": "error",
