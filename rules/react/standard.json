@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "react/display-name": ["error"],
+    "react/forbid-component-props": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "react/no-children-prop": ["error"],
+    "react/no-danger": ["error"],
+    "react/no-danger-with-children": ["error"],
+    "react/no-deprecated": ["error"],
+    "react/no-did-mount-set-state": ["error"],
+    "react/no-did-update-set-state": ["error"],
+    "react/no-direct-mutation-state": ["error"],
+    "react/no-find-dom-node": ["error"],
+    "react/no-is-mounted": ["error"],
+    "react/no-multi-comp": ["error"],
+    "react/no-render-return-value": ["error"],
+    "react/no-set-state": ["error"],
+    "react/no-string-refs": ["error"],
+    "react/no-unescaped-entities": ["error"],
+    "react/no-unknown-property": ["error"],
+    "react/no-unused-prop-types": ["error"],
+    "react/prefer-es6-class": ["error", "always"],
+    "react/prefer-stateless-function": ["error"],
+    "react/prop-types": ["error"],
+    "react/react-in-jsx-scope": ["error"],
+    "react/require-optimization": ["off"],
+    "react/require-render-return": ["error"],
+    "react/self-closing-comp": ["error"],
+    "react/sort-comp": ["error"],
+    "react/sort-prop-types": ["off"],
+    "react/style-prop-object": ["error"]
+  }
+}
