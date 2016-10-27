@@ -9,7 +9,7 @@
   "author": "Ardentic",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "3.4.0"
+    "eslint": "*"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ardentic/eslint-config-flair/issues"
   },
-  "homepage": "https://github.com/ardentic/eslint-config-flair#readme"
+  "homepage": "https://github.com/ardentic/eslint-config-flair#readme",
+  "dependencies": {
+    "eslint": "3.8.1"
+  }
 }
