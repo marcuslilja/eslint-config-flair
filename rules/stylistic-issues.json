@@ -60,7 +60,7 @@
     "one-var-declaration-per-line": ["error", "always"],
     "one-var": ["error", "never"],
     "operator-assignment": ["error", "always"],
-    "operator-linebreak": ["error", "none"],
+    "operator-linebreak": ["error", "none", { "overrides": { "?": "ignore", ":": "ignore" } }],
     "padded-blocks": ["error", "never"],
     "quote-props": ["error", "consistent-as-needed"],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
