@@ -9,7 +9,7 @@
   "author": "Ardentic",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "3.8.1"
+    "eslint": "3.11.1"
   },
   "repository": {
     "type": "git",
