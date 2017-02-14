@@ -1,7 +1,7 @@
 {
   "rules": {
     "react/jsx-boolean-value": ["error"],
-    "react/jsx-closing-bracket-location": ["error", { "selfClosing": "line-aligned", "nonEmpty": "after-props"}],
+    "react/jsx-closing-bracket-location": ["error", "line-aligned"],
     "react/jsx-curly-spacing": ["error", "never", { "allowMultiline": false, "spacing": { "objectLiterals": "never" } }],
     "react/jsx-equals-spacing": ["error", "never"],
     "react/jsx-filename-extension": ["off"],
