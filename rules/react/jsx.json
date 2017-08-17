@@ -2,6 +2,7 @@
   "rules": {
     "react/jsx-boolean-value": ["error"],
     "react/jsx-closing-bracket-location": ["error", "line-aligned"],
+    "react/jsx-closing-tag-location": ["error"],
     "react/jsx-curly-spacing": ["error", "never", { "allowMultiline": false, "spacing": { "objectLiterals": "never" } }],
     "react/jsx-equals-spacing": ["error", "never"],
     "react/jsx-filename-extension": ["off"],
@@ -19,7 +20,7 @@
     "react/jsx-no-undef": ["error"],
     "react/jsx-pascal-case": ["error"],
     "react/jsx-sort-props": ["off"],
-    "react/jsx-space-before-closing": ["error", "always"],
+    "react/jsx-tag-spacing": ["error", { "closingSlash": "never", "beforeSelfClosing": "always", "afterOpening": "never" }],
     "react/jsx-uses-react": ["error"],
     "react/jsx-uses-vars": ["error"],
     "react/jsx-wrap-multilines": ["error"]
