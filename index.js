@@ -1,5 +1,5 @@
 
-var rules = [
+const rules = [
   './rules/possible-errors',
   './rules/best-practices',
   './rules/strict-mode',
