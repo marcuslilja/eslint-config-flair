@@ -1,11 +1,18 @@
 {
   "extends": [
-    "./rules/possible-errors.json",
     "./rules/best-practices.json",
-    "./rules/strict-mode.json",
-    "./rules/variables.json",
+    "./rules/ecmascript-6.json",
     "./rules/nodejs-and-commonjs.json",
-    "./rules/stylistic-issues.json"
+    "./rules/possible-errors.json",
+    "./rules/strict-mode.json",
+    "./rules/stylistic-issues.json",
+    "./rules/variables.json",
+    "./rules/react/jsx.json",
+    "./rules/react/standard.json"
+  ],
+
+  "plugins": [
+    "react"
   ],
 
   "parserOptions": {
