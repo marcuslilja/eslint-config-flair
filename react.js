@@ -1,5 +1,5 @@
 
-var rules = [
+const rules = [
   './rules/react/standard',
   './rules/react/jsx'
 ];
