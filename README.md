@@ -1,12 +1,12 @@
 
-# Ardentic Flair - ESLint Shareable Config
+# Flair - ESLint Shareable Config
 
-An ESLint Shareable Config for Ardentic's JavaScript Coding Standard.
+An Shareable ESLint Config for JavaScript.
 
 ## Install
 
 ```
-npm install @ardentic/eslint-config-flair
+npm install eslint-config-flair
 ```
 
 ## Usage
@@ -16,18 +16,18 @@ To use the basic rules, extend the basic ruleset from your `.eslintrc` config.
 ```json
 {
   "extends": [
-    "@ardentic/flair"
+    "flair"
   ]
 }
 ```
 
 Available extensions to use:
 
-* `@ardentic/flair` - basic linting rules
-* `@ardentic/flair/es6` - es6 linting rules
-* `@ardentic/flair/node` - node linting rules
-* `@ardentic/flair/react` - react linting rules
-* `@ardentic/flair/browser` - browser linting rules
+* `flair` - basic linting rules
+* `flair/es6` - es6 linting rules
+* `flair/node` - node linting rules
+* `flair/react` - react linting rules
+* `flair/browser` - browser linting rules
 
 The rules can be mixed and matched depending on what kind of environment you are about to lint.
 
@@ -36,8 +36,8 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair",
-    "@ardentic/flair/node"
+    "flair",
+    "flair/node"
   ]
 }
 ```
@@ -47,9 +47,9 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair",
-    "@ardentic/flair/es6",
-    "@ardentic/flair/node"
+    "flair",
+    "flair/es6",
+    "flair/node"
   ]
 }
 ```
@@ -59,9 +59,9 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair",
-    "@ardentic/flair/es6",
-    "@ardentic/flair/browser"
+    "flair",
+    "flair/es6",
+    "flair/browser"
   ]
 }
 ```
@@ -71,9 +71,9 @@ The rules can be mixed and matched depending on what kind of environment you are
 ```json
 {
   "extends": [
-    "@ardentic/flair",
-    "@ardentic/flair/es6",
-    "@ardentic/flair/react"
+    "flair",
+    "flair/es6",
+    "flair/react"
   ]
 }
 ```
